@@ -88,5 +88,3 @@ It uses **Retrieval-Augmented Generation (RAG)**, combining semantic search (via
 - (plus LLM API dependencies, e.g., groq, openai)
 
 ---
-
-```
