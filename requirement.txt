@@ -1,0 +1,16 @@
+streamlit
+transformers
+sentence-transformers
+faiss-cpu
+nltk
+PyPDF2
+pdfplumber
+pandas
+numpy
+chromadb
+langchain
+python-dotenv
+ipykernel
+langchain
+langchain-text-splitters
+torch
