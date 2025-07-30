@@ -1,0 +1,13 @@
+prefix=D:/Rag_CChatbot/venv/Library
+exec_prefix=D:/Rag_CChatbot/venv/Library
+libdir=D:/Rag_CChatbot/venv/Library/lib
+sharedlibdir=D:/Rag_CChatbot/venv/Library/lib
+includedir=D:/Rag_CChatbot/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
