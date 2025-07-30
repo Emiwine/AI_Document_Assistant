@@ -18,13 +18,12 @@ This project is a smart chatbot that answers user queries based only on a specif
 
 ## Project Structure
 
-.
--├── data_cleaning.ipynb # Cleans and chunks the PDF document text
--├── embedding.ipynb # Converts text chunks to vector embeddings and builds vector DB (FAISS)
--├── generator.py # Connects to LLM (via Groq) for grounded answer generation
--├── pipeline.py # Runs retrieval, prompt construction, and answer generation pipeline
--├── app.py # Streamlit app with live chat UI
--└── AI_Training_Document.pdf # Example PDF document (upload your own as needed)
+├── data_cleaning.ipynb       # Cleans and chunks the PDF document text
+├── embedding.ipynb           # Converts text chunks to vector embeddings and builds vector DB (FAISS)
+├── generator.py              # Connects to LLM (via Groq) for grounded answer generation
+├── pipeline.py               # Runs retrieval, prompt construction, and answer generation pipeline
+├── app.py                    # Streamlit app with live chat UI
+└── AI_Training_Document.pdf  # Example PDF document (upload your own as needed)
 
 
 
